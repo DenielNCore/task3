@@ -1,0 +1,22 @@
+{
+  "name": "task3",
+  "version": "1.0.0",
+  "description": "task3",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DenielNCore/task3.git"
+  },
+  "keywords": [
+    "task3"
+  ],
+  "author": "DenielNCore",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DenielNCore/task3/issues"
+  },
+  "homepage": "https://github.com/DenielNCore/task3#readme"
+}
