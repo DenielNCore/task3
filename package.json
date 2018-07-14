@@ -4,7 +4,9 @@
   "description": "task3",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "less": "lessc less/main.less css/main.css",
+    "watch-less": "less-watch-compiler less css main.less"
   },
   "repository": {
     "type": "git",
@@ -18,5 +20,12 @@
   "bugs": {
     "url": "https://github.com/DenielNCore/task3/issues"
   },
-  "homepage": "https://github.com/DenielNCore/task3#readme"
+  "homepage": "https://github.com/DenielNCore/task3#readme",
+  "dependencies": {
+    "node-static": "^0.7.10"
+  },
+  "devDependencies": {
+    "less": "^3.7.1",
+    "less-watch-compiler": "^1.11.3"
+  }
 }
