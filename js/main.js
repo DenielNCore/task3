@@ -86,7 +86,7 @@ $(`.reset`).on(`click`, ()=>{
 function resetAres() {
     $(`textarea`).val('');
     $(`table`).remove();
-    $(`.counter`).val(0);
+    $(`.counter`).val(`В сохраненных 0`);
     localStorage.clear();
 }
 
@@ -100,7 +100,7 @@ function checkedCount() {
 }
 
 function checkedCounter() {
-    $(`.counter`).val($(`td`).find('input[type=checkbox]:checked').length);
+    $(`.counter`).val(`В сохраненных ${$(`td`).find('input[type=checkbox]:checked').length}`);
 }
 
 function updateChecked() {
